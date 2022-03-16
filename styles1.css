@@ -1,0 +1,64 @@
+body {
+    background: beige;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.style {
+    max-width: 1050px;
+    margin: auto;
+}
+.shelly {
+    background-color:rgb(137, 200, 255);
+    border-radius: 25px;
+    padding: 15px 15px; 
+    box-shadow: 4px 4px 12.5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.shelly-text{
+    width: 50%;
+    margin-left: 15px;
+
+}    
+.shelly-attack {
+    background-color:rgb(255, 155, 155);
+    border-radius: 25px;
+    padding: 15px 15px;
+    width: 517.5px;
+    box-shadow: 4px 4px 12.5px rgba(0, 0, 0, 0.25);
+}
+.shelly-super {
+    background-color: yellow;
+    border-radius: 25px;
+    padding: 15px 15px;
+    width: 517.5px;
+    margin-left: 15px;
+    box-shadow: 4px 4px 12.5px rgba(0, 0, 0, 0.25);
+}
+.photo {
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 12.5px rgba(0, 0, 0, 0.25);
+}
+.text {
+    display: flex;
+}
+@media (max-width: 525px){
+    .shelly{
+        display: block;
+        text-align:center;
+    }
+    .photo{
+        width: 300px;
+    }
+}
+@media (max-width: 1024px){
+    .shellt{
+        display: block;
+        text-align:center;
+    }
+    .photo{
+        width: 400px;
+    }
+
+}
